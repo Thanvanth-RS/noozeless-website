@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NoozeLess - A Smarter Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⏰</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <span class="logo-icon">⏰</span>
+                    <span class="logo-text">NoozeLess</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#screenshots">Screenshots</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title animate-fade-up" data-delay="0">NoozeLess</h1>
+                    <p class="hero-tagline animate-fade-up" data-delay="0.1">A smarter alarm clock to help you wake up on time</p>
+                    <p class="hero-description animate-fade-up" data-delay="0.2">
+                        NoozeLess removes the snooze option and requires users to complete simple challenges to dismiss the alarm. 
+                        Wake up on time, every time, with our intelligent alarm system designed to build better morning habits.
+                    </p>
+                    <div class="hero-buttons animate-fade-up" data-delay="0.3">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fab fa-android"></i>
+                            Download on Indus Appstore
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            Learn More
+                            <i class="fas fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image animate-fade-up" data-delay="0.4">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="screen-content">
+                                <div class="alarm-time">07:30 AM</div>
+                                <div class="alarm-label">Wake Up Alarm</div>
+                                <div class="challenge-box">
+                                    <div class="challenge-title">Complete to Stop Alarm</div>
+                                    <div class="challenge-task">Solve this math: 14 + 23</div>
+                                    <div class="challenge-input">37</div>
+                                    <button class="challenge-button">Stop Alarm</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header animate-fade-up">
+                    <h2 class="section-title">Designed to Wake You Up</h2>
+                    <p class="section-subtitle">NoozeLess helps you build better morning habits with these key features</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card animate-fade-up" data-delay="0">
+                        <div class="feature-icon">
+                            <i class="fas fa-ban"></i>
+                        </div>
+                        <h3 class="feature-title">No Snooze Alarm</h3>
+                        <p class="feature-description">
+                            Eliminate the temptation to snooze. Once your alarm goes off, you must complete a simple challenge to stop it.
+                        </p>
+                    </div>
+                    <div class="feature-card animate-fade-up" data-delay="0.1">
+                        <div class="feature-icon">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <h3 class="feature-title">Wake-Up Challenges</h3>
+                        <p class="feature-description">
+                            Solve quick math problems, memory games, or physical movement checks to dismiss the alarm and fully wake up.
+                        </p>
+                    </div>
+                    <div class="feature-card animate-fade-up" data-delay="0.2">
+                        <div class="feature-icon">
+                            <i class="fas fa-wifi-slash"></i>
+                        </div>
+                        <h3 class="feature-title">Offline Reliability</h3>
+                        <p class="feature-description">
+                            Works completely offline. No internet connection required for alarms to ring or challenges to function.
+                        </p>
+                    </div>
+                    <div class="feature-card animate-fade-up" data-delay="0.3">
+                        <div class="feature-icon">
+                            <i class="fas fa-brush"></i>
+                        </div>
+                        <h3 class="feature-title">Clean & Simple Interface</h3>
+                        <p class="feature-description">
+                            Intuitive design with minimal distractions. Set alarms quickly and manage your wake-up schedule effortlessly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <div class="section-header animate-fade-up">
+                    <h2 class="section-title">How NoozeLess Works</h2>
+                    <p class="section-subtitle">Three simple steps to transform your mornings</p>
+                </div>
+                <div class="steps-container">
+                    <div class="step animate-fade-up" data-delay="0">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Set Your Alarm</h3>
+                            <p class="step-description">
+                                Choose your wake-up time and customize your wake-up challenge difficulty level.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step animate-fade-up" data-delay="0.1">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Alarm Rings On Time</h3>
+                            <p class="step-description">
+                                Your alarm will sound at the exact time you set, with no option to snooze or dismiss easily.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step animate-fade-up" data-delay="0.2">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3 class="step-title">Complete a Challenge to Stop</h3>
+                            <p class="step-description">
+                                Solve a simple mental or physical challenge to stop the alarm, ensuring you're fully awake.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="steps-illustration animate-fade-up" data-delay="0.3">
+                    <div class="illustration-line"></div>
+                    <div class="illustration-dots">
+                        <div class="dot dot-active"></div>
+                        <div class="dot"></div>
+                        <div class="dot dot-active"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section id="screenshots" class="screenshots">
+            <div class="container">
+                <div class="section-header animate-fade-up">
+                    <h2 class="section-title">App Screenshots</h2>
+                    <p class="section-subtitle">A glimpse of the clean, intuitive NoozeLess interface</p>
+                </div>
+                <div class="screenshots-container">
+                    <div class="screenshot-slider">
+                        <div class="screenshot animate-fade-up" data-delay="0">
+                            <div class="screenshot-frame">
+                                <div class="screenshot-header">
+                                    <div class="screenshot-time">7:30 AM</div>
+                                    <div class="screenshot-battery">84%</div>
+                                </div>
+                                <div class="screenshot-content alarm-set">
+                                    <div class="screen-title">Set Alarm</div>
+                                    <div class="time-picker">
+                                        <div class="time-digit active">07</div>
+                                        <div class="time-colon">:</div>
+                                        <div class="time-digit">30</div>
+                                        <div class="time-period">AM</div>
+                                    </div>
+                                    <div class="challenge-options">
+                                        <div class="option active">Math Puzzle</div>
+                                        <div class="option">Memory Game</div>
+                                        <div class="option">Shake Phone</div>
+                                    </div>
+                                    <button class="screen-button">Save Alarm</button>
+                                </div>
+                            </div>
+                            <p class="screenshot-caption">Set your alarm with custom challenges</p>
+                        </div>
+                        <div class="screenshot animate-fade-up" data-delay="0.1">
+                            <div class="screenshot-frame">
+                                <div class="screenshot-header">
+                                    <div class="screenshot-time">7:30 AM</div>
+                                    <div class="screenshot-battery">84%</div>
+                                </div>
+                                <div class="screenshot-content alarm-active">
+                                    <div class="alarm-icon">⏰</div>
+                                    <div class="alarm-message">Time to Wake Up!</div>
+                                    <div class="challenge-problem">Solve: 18 × 3</div>
+                                    <div class="challenge-answer">
+                                        <input type="text" placeholder="Enter answer" class="answer-input">
+                                    </div>
+                                    <button class="screen-button alarm-stop">Stop Alarm</button>
+                                </div>
+                            </div>
+                            <p class="screenshot-caption">Complete a challenge to stop the alarm</p>
+                        </div>
+                        <div class="screenshot animate-fade-up" data-delay="0.2">
+                            <div class="screenshot-frame">
+                                <div class="screenshot-header">
+                                    <div class="screenshot-time">7:35 AM</div>
+                                    <div class="screenshot-battery">83%</div>
+                                </div>
+                                <div class="screenshot-content alarm-list">
+                                    <div class="screen-title">Your Alarms</div>
+                                    <div class="alarm-item active">
+                                        <div class="alarm-time">07:30 AM</div>
+                                        <div class="alarm-days">Mon, Tue, Wed, Thu, Fri</div>
+                                        <div class="alarm-status">Math Challenge</div>
+                                    </div>
+                                    <div class="alarm-item">
+                                        <div class="alarm-time">09:00 AM</div>
+                                        <div class="alarm-days">Sat, Sun</div>
+                                        <div class="alarm-status">Memory Game</div>
+                                    </div>
+                                    <div class="alarm-item">
+                                        <div class="alarm-time">06:45 AM</div>
+                                        <div class="alarm-days">Tomorrow</div>
+                                        <div class="alarm-status">Shake Challenge</div>
+                                    </div>
+                                    <button class="screen-button add-alarm">+ Add New Alarm</button>
+                                </div>
+                            </div>
+                            <p class="screenshot-caption">Manage all your alarms in one place</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust / Privacy Section -->
+        <section class="trust">
+            <div class="container">
+                <div class="trust-content animate-fade-up">
+                    <div class="trust-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h2 class="trust-title">Your Privacy Matters</h2>
+                    <p class="trust-statement">
+                        NoozeLess does not collect or share any personal user data. The app works entirely on your device with no tracking, analytics, or data collection.
+                    </p>
+                    <div class="trust-points">
+                        <div class="trust-point">
+                            <i class="fas fa-check-circle"></i>
+                            <span>No personal data collection</span>
+                        </div>
+                        <div class="trust-point">
+                            <i class="fas fa-check-circle"></i>
+                            <span>No third-party tracking</span>
+                        </div>
+                        <div class="trust-point">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Works completely offline</span>
+                        </div>
+                        <div class="trust-point">
+                            <i class="fas fa-check-circle"></i>
+                            <span>No account registration required</span>
+                        </div>
+                    </div>
+                    <a href="privacy.html" class="btn btn-outline">
+                        <i class="fas fa-file-alt"></i>
+                        Read Full Privacy Policy
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">⏰</span>
+                        <span class="logo-text">NoozeLess</span>
+                    </div>
+                    <p class="footer-tagline">A smarter alarm clock to help you wake up on time</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4 class="footer-title">App</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#how-it-works">How It Works</a></li>
+                            <li><a href="#screenshots">Screenshots</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-title">Legal</h4>
+                        <ul>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-title">Contact</h4>
+                        <ul>
+                            <li><a href="mailto:thanvanthrs@gmail.com">thanvanthrs@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© <span id="current-year">2024</span> NoozeLess. All rights reserved.</p>
+                <div class="download-footer">
+                    <a href="#" class="btn btn-small">
+                        <i class="fab fa-android"></i>
+                        Download Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
